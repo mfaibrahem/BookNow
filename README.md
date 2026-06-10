@@ -43,6 +43,12 @@ This command will move the starter code to the **app-example** directory and cre
 
 ## Learn more
 
+## Experimental API note
+
+- This project currently uses `NativeTabs` from `expo-router/unstable-native-tabs` in `src/app/(root)/(tabs)/_layout.tsx`.
+- This API is experimental and may change or break on minor/patch updates.
+- Until migration to stable tabs is completed, prefer locking Expo Router versions and retesting tab behavior before dependency bumps.
+
 To learn more about developing your project with Expo, look at the following resources:
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).

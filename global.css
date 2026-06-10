@@ -1,0 +1,13 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+/* update the theme primary color */
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-accent: #f59e0b;
+  --color-card: #1a1a1e;
+}
